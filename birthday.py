@@ -51,7 +51,7 @@ if month==("December") or month==("January") or month==("February"):
     season="winter"
 if month==("March") or month==("April") or month==("May"):
     season="spring"
- if month==("June") or month==("July") or month==("August"):
+if month==("June") or month==("July") or month==("August"):
     season="Summer"  
 if month==("September") or month==("October") or month==("November"):
     season="fall"
@@ -63,3 +63,5 @@ if int(year)<=1999 and int(year)>=1990:
     timeperiod="nineties"
 if int(year)>=2000:
     timeperiod="two thousands"
+    
+print(""+name+" you are a "+season+" baby of the "+timeperiod+". ")
