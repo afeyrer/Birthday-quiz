@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Abby Feyrer
-Credit: <list sources used, if any>
+Credit: none
 Assignment:
 
 Your program will ask the user the following questions, in this order:
