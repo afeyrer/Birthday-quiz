@@ -45,7 +45,7 @@ day=input("And the day? ")
 if int(day)==31 and month==("October"):
     print("You were born on Halloween! ")
 if int(day)==todaydate and month==monthrn:
-    print("Happy birthday! ")
+    print("Happy birthday!")
     
 if month==("December") or month==("January") or month==("February"):
     season="winter"
