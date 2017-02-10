@@ -45,7 +45,7 @@ day=input("And the day? ")
 if int(day)==31 and month==("October"):
     print("You were born on Halloween! ")
 if int(day)==todaydate and month==monthrn:
-    print("Happy birthday!")
+    print("Happy birthday! ")
     
 if month==("December") or month==("January") or month==("February"):
     season="winter"
@@ -64,4 +64,4 @@ if int(year)<=1999 and int(year)>=1990:
 if int(year)>=2000:
     timeperiod="two thousands"
     
-print(""+name+", you are a "+season+" baby of the "+timeperiod+".")
+print(""+name+", you are a "+season+" baby of the "+timeperiod+" .")
