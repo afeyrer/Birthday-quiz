@@ -64,4 +64,4 @@ if int(year)<=1999 and int(year)>=1990:
 if int(year)>=2000:
     timeperiod="two thousands"
     
-print(""+name+", you are a "+season+" baby of the "+timeperiod+".")
+print(""+name+", you are a "+season+" baby of the "+timeperiod+". ")
