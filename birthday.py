@@ -58,7 +58,7 @@ if month==("September") or month==("October") or month==("November"):
 if int(year)<=1989 and int(year)>=1980:
     timeperiod="eighties"
 if int(year)<1980:
-    timeperiod="Stone Age"
+    timeperiod="stone Age"
 if int(year)<=1999 and int(year)>=1990:
     timeperiod="nineties"
 if int(year)>=2000:
