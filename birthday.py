@@ -43,9 +43,9 @@ year=input("And what year were you born in, "+name+"? ")
 day=input("And the day? ")
 
 if int(day)==31 and month==("October"):
-    print("You were born on Halloween!")
+    print("You were born on Halloween! ")
 if int(day)==todaydate and month==monthrn:
-    print("Happy birthday!")
+    print("Happy birthday! ")
     
 if month==("December") or month==("January") or month==("February"):
     season="winter"
@@ -58,7 +58,7 @@ if month==("September") or month==("October") or month==("November"):
 if int(year)<=1989 and int(year)>=1980:
     timeperiod="eighties"
 if int(year)<1980:
-    timeperiod="stone Age"
+    timeperiod="stone age"
 if int(year)<=1999 and int(year)>=1990:
     timeperiod="nineties"
 if int(year)>=2000:
