@@ -63,5 +63,4 @@ else:
         timeperiod="nineties"
     if int(year)>=2000:
         timeperiod="two thousands"
-        
     print(""+name+", you are a "+season+" baby of the "+timeperiod+".")
