@@ -44,24 +44,24 @@ day=input("And the day? ")
 
 if int(day)==31 and month==("october"):
     print("You were born on Halloween!")
-if int(day)==todaydate and month==monthrn:
+elif int(day)==todaydate and month==monthrn:
     print("Happy birthday!")
-    
-if month==("december") or month==("january") or month==("february"):
-    season="winter"
-if month==("march") or month==("april") or month==("may"):
-    season="spring"
-if month==("june") or month==("july") or month==("august"):
-    season="Summer"  
-if month==("september") or month==("october") or month==("november"):
-    season="fall"
-if int(year)<=1989 and int(year)>=1980:
-    timeperiod="eighties"
-if int(year)<1980:
-    timeperiod="Stone Age"
-if int(year)<=1999 and int(year)>=1990:
-    timeperiod="nineties"
-if int(year)>=2000:
-    timeperiod="two thousands"
-    
-print(""+name+", you are a "+season+" baby of the "+timeperiod+".")
+else:    
+    if month==("december") or month==("january") or month==("february"):
+        season="winter"
+    if month==("march") or month==("april") or month==("may"):
+        season="spring"
+    if month==("june") or month==("july") or month==("august"):
+        season="Summer"  
+    if month==("september") or month==("october") or month==("november"):
+        season="fall"
+    if int(year)<=1989 and int(year)>=1980:
+        timeperiod="eighties"
+    if int(year)<1980:
+        timeperiod="Stone Age"
+    if int(year)<=1999 and int(year)>=1990:
+        timeperiod="nineties"
+    if int(year)>=2000:
+        timeperiod="two thousands"
+        
+    print(""+name+", you are a "+season+" baby of the "+timeperiod+".")
